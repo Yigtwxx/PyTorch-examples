@@ -1,16 +1,18 @@
-# PyTorch Examples
+# PyTorch Örnekleri
 
 https://pytorch.org/examples/
 
-`pytorch/examples` is a repository showcasing examples of using [PyTorch](https://github.com/pytorch/pytorch). The goal is to have curated, short, few/no dependencies _high quality_ examples that are substantially different from each other that can be emulated in your existing work.
+`pytorch/examples`, [PyTorch](https://github.com/pytorch/pytorch) kullanım örneklerini sergileyen bir depodur.
 
-- For tutorials: https://github.com/pytorch/tutorials
-- For changes to pytorch.org: https://github.com/pytorch/pytorch.github.io
-- For a general model hub: https://pytorch.org/hub/ or https://huggingface.co/models
-- For recipes on how to run PyTorch in production: https://github.com/facebookresearch/recipes
-- For general Q&A and support: https://discuss.pytorch.org/
+Buradaki amaç; mevcut çalışmalarınızda model alabileceğiniz (uyarlayabileceğiniz), birbirinden önemli ölçüde farklı, özenle seçilmiş, kısa, az veya hiç bağımlılığı olmayan yüksek kaliteli örnekler sunmaktır.
 
-## Available models
+- Eğitimler için: https://github.com/pytorch/tutorials
+- pytorch.org değişiklikleri için: https://github.com/pytorch/pytorch.github.io
+- Genel bir model merkezi için: https://pytorch.org/hub/ or https://huggingface.co/models
+- PyTorch'u prodüksiyonda çalıştırma yöntemleri (tarifleri) için: https://github.com/facebookresearch/recipes
+- Genel Soru-Cevap ve destek için: https://discuss.pytorch.org/
+
+## Erişilebilir modeller
 
 - [Image classification (MNIST) using Convnets](./mnist/README.md)
 - [Word-level Language Modeling using RNN and Transformer](./word_language_model/README.md)
@@ -30,10 +32,10 @@ https://pytorch.org/examples/
 - [Image Classification Using Forward-Forward](./mnist_forward_forward/README.md)
 - [Language Translation using Transformers](./language_translation/README.md)
 
-Additionally, a list of good examples hosted in their own repositories:
+Ayrıca, kendi depolarında barındırılan iyi örneklerin bir listesi:
 
-- [Neural Machine Translation using sequence-to-sequence RNN with attention (OpenNMT)](https://github.com/OpenNMT/OpenNMT-py)
+- [Dikkat (attention) mekanizmalı diziden-diziye (sequence-to-sequence) RNN kullanan Nöral Makine Çevirisi (OpenNMT)](https://github.com/OpenNMT/OpenNMT-py)
 
-## Contributing
+## Katkıda Bulunma
 
-If you'd like to contribute your own example or fix a bug please make sure to take a look at [CONTRIBUTING.md](CONTRIBUTING.md).
+"Eğer kendi örneğinizle katkıda bulunmak veya bir hatayı düzeltmek isterseniz, lütfen şuraya göz attığınızdan emin olun: [CONTRIBUTING.md](CONTRIBUTING.md).
